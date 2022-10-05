@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+    color:white
+}
+.card{
+    background-color:#333;
+    color:white;
+    font-weight: bold;
+  
+}
+.allTasks{
+    margin-bottom: 2px;
+}
+.card-body{
+    margin-bottom: 2px;
+}
+.none{
+    display: none;
+}

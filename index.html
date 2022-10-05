@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testImges</title>
+    <link rel="stylesheet" href="./css/all.min.css" class="">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" class="">
+    <link id="lightlink" rel="stylesheet" href="./css/light.css" class="">
+
+
+</head>
+
+<body>
+    <div class="row justify-content-center"><i class="lightIcon fa-regular fa-lightbulb"></i></div>
+
+<div class="head col-lg-6 col-10">
+    <div class="">
+        <h1 class="header text-center">To DO List</h1>
+    </div>
+   
+</div>    
+    <div>
+        <div class="container  col-lg-6">
+            <div class="card">
+                <div id="validationMsg" class=" none alert alert-danger">
+    
+                    <button id="cloesValidationMsgBtn" type="button" class="close" aria-lable="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <lable>Task Name</lable>
+                        <input id="taskInput" type="text" class="form-control" placeholder="Your Task Name">
+                    </div>
+                    <div id="validationMsg" class=" none alert alert-danger">
+    
+                        <button id="cloesValidationMsgBtn" type="button" class="close" aria-lable="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <lable>Task Imges</lable>
+                        <input id="taskInput" type="text" class="form-control" placeholder="Your Task Image">
+                    </div>
+                    <div id="validationMsg" class=" none alert alert-danger">
+    
+                        <button id="cloesValidationMsgBtn" type="button" class="close" aria-lable="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <lable>Task Date</lable>
+                        <input id="taskInput" type="date" class="form-control" >
+                    </div>
+                  
+                    <button id="addTaskBtn" class="btn btn-info">Add Task</button>
+                </div>
+            </div>
+           
+        </div>
+        </div>
+        <div class="container  col-lg-6">
+            <h1 class="text-center">List Task</h1>
+            <div class="card">
+                <div class="card-body">
+                    <div id="allTasks" class="allTasks row justify-content-center">
+    
+                    </div>
+                    <div id="noTask" class="alert alert-danger">
+                        <h3 class="text-center">No Task Added Yet</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./js/main.js">
+
+    </script>
+</body>
+
+</html>

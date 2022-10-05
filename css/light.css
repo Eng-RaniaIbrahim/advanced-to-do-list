@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  color: black;
+}
+.card {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.head {
+  color: white;
+  border-radius: 0px 50px;
+  padding-bottom: 3px;
+  /* width:20%; */
+  margin: auto;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  background-color: black;
+}
+.header {
+  /* width:83%; */
+  padding-bottom: 3px;
+  border-radius: 0px 50px;
+  margin: auto;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+.allTasks {
+  margin-bottom: 2px;
+}
+.card-body {
+  margin-bottom: 2px;
+  /* background-color: white !important; */
+}
+.none {
+  display: none;
+}
+.lightIcon {
+  padding-top: 10px;
+  margin: 20px auto;
+  font-size: 35px;
+  color: black !important;
+  text-shadow: 2px 2px 5px black !important;
+}
+.light {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.task-bg {
+  background-color: rgb(22, 22, 126);
+  color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}

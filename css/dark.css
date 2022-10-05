@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+.card {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+.head {
+  color: black;
+  border-radius: 0px 50px;
+  padding-bottom: 3px;
+  /* width:20%; */
+  margin: auto;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background-color: white;
+}
+.header {
+  /* width:83%; */
+  padding-bottom: 3px;
+  border-radius: 0px 50px;
+  margin: auto;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+.card-body {
+  margin-bottom: 2px;
+  /* background-color: #333 !important; */
+}
+.none {
+  display: none;
+}
+/*//////////////////////////////////*/
+.darkIcon {
+  padding-top: 10px;
+  margin: 20px auto;
+  font-size: 35px;
+  color: yellow !important;
+  text-shadow: 2px 2px 5px yellow !important;
+}
+.dark {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+.task-bg {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
