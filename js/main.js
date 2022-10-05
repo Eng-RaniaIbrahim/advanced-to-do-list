@@ -60,7 +60,7 @@ let addTask = (name ,image,date) => {
     validationMsg.classList.add('none');
     allTasks.innerHTML +=`<div class='col-lg-3 col-5 task-bg  text-center'>
     <i class='delete text-danger float-right fa-solid fa-rectangle-xmark'></i>
-    <img width:"60" src='${image}'><br>
+    <img width="60" src='${image}'><br>
     ${name}<br><br>
     <p class=' '>${date}</p>
     <div>
